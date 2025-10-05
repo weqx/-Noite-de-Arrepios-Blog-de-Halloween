@@ -1,0 +1,159 @@
+* {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+main, footer {
+    width: 80%;       
+    max-width: 1200px; 
+    margin: 0 auto;    
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #910404;
+}
+
+body {
+    background-color: #1B0E0E;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;   
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding-left: 100px;
+}
+
+#nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+
+nav a:hover,nav a.active {
+    color: #910404;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+    padding-left: 180px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1, h2, h3 {
+    font-family: 'Creepster', cursive;
+    color: #fff; 
+    letter-spacing: 2px;
+}
+
+p, li {
+    font-family: 'Georgia', serif; 
+    color: #ddd;
+}
+
+footer>p {
+    padding-top: 100px;
+}
+
+.seta {
+    width: 50px;
+    position: absolute;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+#item {
+    list-style: outside;
+    display: list-item;
+    text-align: start;
+}
+
+footer>p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #910404;
+}
+
+#selector-vermelho {
+    display: flex;
+    gap: 20px;
+}
+#parte-vermelha {
+    background-color: #910404;
+    width: 10px;
+    
+}
+
+#icon-livro {
+    width: 100px;
+}
+
+#a-article>article:hover {
+    background-color: #910404;
+}
+
+#div-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#a-article>article {
+     background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+article>span {
+    font-weight: bold;
+}
+
+h4,h3,p,li {
+    text-align: start;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+footer>p>a:hover {
+    color: #910404;
+}
+

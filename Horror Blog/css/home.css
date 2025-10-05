@@ -1,0 +1,46 @@
+span {
+    color: #910404;
+    font-weight: bold;
+}
+
+h2 {
+    display: flex;
+}
+
+#home-imagem {
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 560px;
+    font-size: 60px;
+}
+
+.article {
+    width: 500px;
+}
+
+#div-section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    
+}
+
+#picture {
+    width: 300px;
+}
+
+#article-section-2 {
+    display: flex;
+    gap: 40px;
+    text-align: start;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}

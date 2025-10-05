@@ -1,0 +1,12 @@
+#article-contos {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#article-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
